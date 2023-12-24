@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsl(0, 0%, 95%);
+}
+
+/* CARDS */
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7%;
+}
+/* CARD-1 */
+.card-1{ 
+    width: 250px;
+    height: 400px;
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.card-1 img{
+    margin: 30px;
+}
+.card-1 h1{
+    font-family: 'Big Shoulders Display', sans-serif;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    color: hsl(0, 0%, 95%);
+}
+.card-1 p{
+    margin-left: 30px;
+    font-size: 13px;
+    width: 70%;
+    line-height: 1.5;
+    color:hsla(0, 0%, 100%, 0.75);
+}
+.card-1 p:last-of-type{
+    margin-top: 70px;
+    padding: 10px;
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(31, 77%, 52%);
+    text-align: center; 
+    width: 50%;
+    border-radius: 20px;
+}
+
+/* CARD-2 */
+
+.card-2{
+    width: 250px;
+    height: 400px;
+    background-color: hsl(184, 100%, 22%);
+}
+.card-2 img{
+    margin: 30px;
+}
+.card-2 h1{
+    font-family: 'Big Shoulders Display', sans-serif;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    color: hsl(0, 0%, 95%);
+}
+.card-2 p{
+    margin-left: 30px;
+    font-size: 13px;
+    width: 75%;
+    line-height: 1.5;
+    color:hsla(0, 0%, 100%, 0.75);
+}
+.card-2 p:last-of-type{
+    margin-top: 70px;
+    padding: 10px;
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(184, 100%, 22%);
+    text-align: center; 
+    width: 50%;
+    border-radius: 20px;
+}
+
+/* CARD-3 */
+
+.card-3{
+    width: 250px;
+    height: 400px;
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.card-3 img{
+    margin: 30px;
+}
+.card-3 h1{
+    font-family: 'Big Shoulders Display', sans-serif;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    color: hsl(0, 0%, 95%);
+}
+.card-3 p{
+    margin-left: 30px;
+    font-size: 13px;
+    width: 75%;
+    line-height: 1.5;
+    color:hsla(0, 0%, 100%, 0.75);
+}
+.card-3 p:last-of-type{
+    margin-top: 70px;
+    padding: 10px;
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(179, 100%, 13%);
+    text-align: center; 
+    width: 50%;
+    border-radius: 20px;
+}
+
+    /* ATTRIBUTION */
+.attribution {
+    margin-top: 6%;
+    font-size: 12px;
+    text-align: center;
+    color:hsl(179, 100%, 13%);
+}
+.attribution a {
+    color:hsl(179, 100%, 13%);
+    text-decoration: none;
+}
